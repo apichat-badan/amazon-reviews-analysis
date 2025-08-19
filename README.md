@@ -17,7 +17,7 @@ This project provides tools for:
 
 ## Data Source
 
-This project uses the Amazon Product Reviews dataset from [J. McAuley's research group](http://jmcauley.ucsd.edu/data/amazon/). Specifically, we use the **Grocery and Gourmet Food** dataset which contains:
+This project uses the Amazon Product Reviews dataset from [J. McAuley's research group](http://jmcauley.ucsd.edu/data/amazon/). Specifically, for this project  **Grocery and Gourmet Food** dataset was used, which contains:
 
 - **5,074,160 reviews** across various grocery and gourmet food products
 - **287,209 products** with metadata
