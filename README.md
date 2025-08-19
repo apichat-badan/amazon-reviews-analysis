@@ -22,6 +22,19 @@ This project uses the Amazon Product Reviews dataset from [J. McAuley's research
 
 The dataset provides comprehensive coverage of customer feedback in the grocery and gourmet food category, making it ideal for sentiment analysis and review pattern detection.
 
+## Dashboard Preview
+
+![Review Monitor Dashboard](dashboard-screenshot.png)
+
+*Real-time Amazon reviews analysis dashboard showing sentiment trends, keyword analysis, and recent review monitoring*
+
+The dashboard provides:
+- **Real-time sentiment trend analysis** with interactive time controls
+- **Keyword extraction and frequency analysis** from review content
+- **Recent reviews display** with sentiment classification and timestamps
+- **Product-specific monitoring** with customizable time windows
+- **Interactive charts** for data exploration and pattern detection
+
 ## Project Structure
 
 ```
