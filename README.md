@@ -11,6 +11,16 @@ This project provides tools for:
 - Dashboard visualization of review data
 - Database management and data backfilling
 
+## Data Source
+
+This project uses the Amazon Product Reviews dataset from [J. McAuley's research group](http://jmcauley.ucsd.edu/data/amazon/). Specifically, we use the **Grocery and Gourmet Food** dataset which contains:
+
+- **5,074,160 reviews** across various grocery and gourmet food products
+- **287,209 products** with metadata
+- Rich review data including ratings, text, timestamps, and product information
+
+The dataset provides comprehensive coverage of customer feedback in the grocery and gourmet food category, making it ideal for sentiment analysis and review pattern detection.
+
 ## Project Structure
 
 ```
@@ -26,7 +36,7 @@ amazon_reviews/
 ├── sanity_dash.py       # Dashboard sanity check
 ├── requirements.txt     # Python dependencies
 ├── reviews.db          # SQLite database (not tracked in git)
-└── data/               # Data directory
+└── data/               # Data directory (Amazon reviews dataset - not tracked in git)
 ```
 
 ## Features
@@ -82,6 +92,11 @@ pip install -r requirements.txt
 ```bash
 python init_db.py
 ```
+
+5. Download the dataset (optional - for full functionality):
+   - Visit [J. McAuley's Amazon dataset page](http://jmcauley.ucsd.edu/data/amazon/)
+   - Download the "Grocery and Gourmet Food" dataset
+   - Extract the files to the `data/` directory
 
 ## Usage
 
