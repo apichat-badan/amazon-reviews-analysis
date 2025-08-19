@@ -24,7 +24,8 @@ The dataset provides comprehensive coverage of customer feedback in the grocery 
 
 ## Dashboard Preview
 
-![Review Monitor Dashboard](dashboard-screenshot.png)
+<img width="2527" height="1334" alt="Screenshot 2025-08-19 111022" src="https://github.com/user-attachments/assets/427e5fa6-d45d-4267-a30b-e0966795b778" />
+
 
 *Real-time Amazon reviews analysis dashboard showing sentiment trends, keyword analysis, and recent review monitoring*
 
