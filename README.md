@@ -1,3 +1,6 @@
+<img width="1871" height="462" alt="Screenshot 2025-08-19 115941" src="https://github.com/user-attachments/assets/ada25b61-fe70-4b40-86ad-f95c3a13124d" />
+
+
 # Real-Time Product Review Analysis and Alert System Using NLP and Stream Processing
 
 A comprehensive real-time system for analyzing Amazon product reviews using Natural Language Processing (NLP) and stream processing techniques with intelligent alerting capabilities.
