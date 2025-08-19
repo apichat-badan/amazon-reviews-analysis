@@ -141,6 +141,9 @@ dmypy.json
 !requirements.txt
 !README.md
 
+# Data directories
+data/
+
 # Log files
 *.log
 
