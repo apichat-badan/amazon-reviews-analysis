@@ -141,8 +141,20 @@ dmypy.json
 !requirements.txt
 !README.md
 
-# Data directories
+# Data directories and large files
 data/
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Large data files
+data/*.json.gz
+data/*.json
+data/*.csv
+data/*.txt
 
 # Log files
 *.log
