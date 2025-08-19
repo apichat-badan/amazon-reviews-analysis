@@ -54,7 +54,7 @@ amazon_reviews/
    - Stores data in SQLite database
 
 3. **Web Dashboard** (`dash_app.py`)
-   - Streamlit-based visualization
+   - Dash-based visualization (built on Flask)
    - Real-time data display
    - Interactive charts and metrics
 
@@ -107,8 +107,19 @@ python alert_worker.py
 
 ### Running the Dashboard
 ```bash
-streamlit run dash_app.py
+# Navigate to the project directory
+cd ~/sushi/wsp/amazon_reviews
+
+# Kill any existing dash processes on port 8052
+pkill -f 'dash_app|python .*8052' || true
+
+# Run the Dash app on port 8052
+PORT=8052 PYTHONUNBUFFERED=1 python dash_app.py
 ```
+
+Then open your browser and navigate to: `http://localhost:8052/`
+
+**Note**: If you're running this on a remote server, replace `localhost` with your server's IP address (e.g., `http://192.168.1.64:8052/`)
 
 ### Starting the API Server
 ```bash
@@ -147,7 +158,7 @@ The system uses the following configuration:
 - `uvicorn`: ASGI server
 - `python-dotenv`: Environment variable management
 - `psycopg2-binary`: PostgreSQL adapter (if needed)
-- `streamlit`: Dashboard framework
+- `dash`: Dashboard framework (built on Flask)
 - `sqlite3`: Database (built-in)
 
 ## License
