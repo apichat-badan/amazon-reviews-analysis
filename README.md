@@ -1,15 +1,16 @@
-# Amazon Reviews Analysis System
+# Real-Time Product Review Analysis and Alert System Using NLP and Stream Processing
 
-A comprehensive system for analyzing Amazon product reviews with real-time alerting capabilities.
+A comprehensive real-time system for analyzing Amazon product reviews using Natural Language Processing (NLP) and stream processing techniques with intelligent alerting capabilities.
 
 ## Overview
 
 This project provides tools for:
-- Ingesting and processing Amazon product reviews
-- Sentiment analysis of reviews
-- Real-time alerting for negative review patterns
-- Dashboard visualization of review data
-- Database management and data backfilling
+- Real-time ingestion and processing of Amazon product reviews
+- Advanced sentiment analysis using NLP techniques
+- Intelligent alerting system for negative review pattern detection
+- Real-time dashboard visualization of review data
+- Stream processing for continuous data analysis
+- Database management and data backfilling capabilities
 
 ## Data Source
 
@@ -43,15 +44,16 @@ amazon_reviews/
 
 ### Core Components
 
-1. **Alert System** (`alert_worker.py`)
-   - Monitors for products with 5+ negative reviews in 10-minute windows
+1. **Real-Time Alert System** (`alert_worker.py`)
+   - Stream processing for continuous monitoring of review patterns
+   - Intelligent detection of products with 5+ negative reviews in 10-minute windows
    - Implements cooldown periods to prevent duplicate alerts
    - Real-time monitoring with SQLite database
 
-2. **Data Ingestion** (`ingest_worker.py`)
-   - Processes incoming review data
-   - Handles sentiment analysis
-   - Stores data in SQLite database
+2. **Stream Data Ingestion** (`ingest_worker.py`)
+   - Real-time processing of incoming review data streams
+   - NLP-based sentiment analysis and keyword extraction
+   - Efficient storage in SQLite database with optimized queries
 
 3. **Web Dashboard** (`dash_app.py`)
    - Dash-based visualization (built on Flask)
